@@ -38,18 +38,14 @@ body {
     background-color: #121111;
 }
 
-.o_menu_sections {
-    background-image: url("/g2p_theme/static/src/img/openg2p-white.png");
-    background-repeat: no-repeat;
-    background-position-y: center;
-    background-position-x: 60%;
-    background-size: 120px;
+.custom-logo-element {
+    padding: 2px;
 }
 
-@media screen and (max-width: 980px) {
-    .o_menu_sections {
-        background-position-x: 100% !important;
-    }
+.custom-logo-element .g2p-logo {
+    width: 134px;
+    height: 40px;
+    margin-right: 5px;
 }
 
 .o_notification_counter {
